@@ -11,6 +11,7 @@ export default styled.createGlobalStyle`
     --dark-blue-1: #151a24;
     --dark-blue-2: #2c313a;
     --gray-1: #c8c9cf;
+    --gray-2: #babcc3;
     --body-1: #444850;
     --body-2: #5b5f66;
     --body-3: #dddde1;
@@ -39,6 +40,8 @@ export default styled.createGlobalStyle`
   *::before,
   *::after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
   }
   body {
     background-color: var(--dark-blue-1);
@@ -47,11 +50,14 @@ export default styled.createGlobalStyle`
   h2,
   h3 {
     font-family: var(--Heading-font);
+    margin: 0;
+    padding: 0;
   }
   p,
   button,
   label,
   input,
+  span,
   input::placeholder {
     font-family: var(--body-font);
   }
