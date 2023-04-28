@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Button } from '../../components/Buttons/Button.styles';
+import { StyledButton } from '../../components/Buttons/Button.styles';
 export const Container = styled.section`
   margin: 0 auto;
   width: 90vw;
@@ -57,20 +57,27 @@ export const CurrentScreenBars = styled.div`
 `;
 export const ButtonContainer = styled.div`
   display: flex;
-  gap: 9rem;
+  width: 100%;
+  gap: 4rem;
 `;
-
-export const SkipButton = styled(Button)`
+export const OnboardingBtn = styled(StyledButton)`
+  flex-grow: 2;
+`;
+export const SkipButton = styled(StyledButton)`
   padding: 0;
   background-color: transparent;
   border-radius: 0rem;
+  flex-grow: 1;
   color: var(--dark-blue-1);
 
   &:hover {
     background-color: transparent;
     color: var(--body-2);
+
+    box-shadow: none;
   }
   &:active {
     color: var(--dark-blue-2);
+    box-sizing: none;
   }
 `;

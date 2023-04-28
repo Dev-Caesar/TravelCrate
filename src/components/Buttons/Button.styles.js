@@ -1,21 +1,23 @@
 import styled from 'styled-components';
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
   background-color: var(--blue-1);
-  font-size: clamp(1.4rem, 1vw + 1rem, 2.1rem);
+  font-size: 1.7rem;
   font-weight: 600;
   color: var(--body-4);
-  border-radius: 2.4rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 1.5rem 4.9rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 40rem;
   transition: all ease-in-out 0.2s;
 
   &:hover {
-    background-color: var(--blue-hover);
+    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.5);
   }
   &:active {
-    background-color: var(--blue-1);
+    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.6);
   }
 `;

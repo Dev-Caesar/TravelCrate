@@ -5,8 +5,8 @@ import {
   WhiteBackground,
   ButtonContainer,
   SkipButton,
+  OnboardingBtn,
 } from './Onboarding.styles';
-import { Button } from '../../components/Buttons/Button.styles';
 
 import onboardingImg1 from '../../assets/onboarding-image-1.svg';
 import onboardingImg2 from '../../assets/onboarding-image-2.svg';
@@ -50,10 +50,10 @@ function Onboarding() {
         {curScreen <= 1 ? (
           <ButtonContainer>
             <SkipButton>Skip</SkipButton>
-            <Button>Next</Button>
+            <OnboardingBtn>Next</OnboardingBtn>
           </ButtonContainer>
         ) : (
-          <Button>Get Started</Button>
+          <OnboardingBtn>Get Started</OnboardingBtn>
         )}
       </WhiteBackground>
     </Container>
