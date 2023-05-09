@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { StyledButton } from '../../components/Buttons/Button.styles';
-export const StyledContainer = styled.div`
+
+export const Container = styled.div`
   padding: 4rem 0;
   text-align: center;
   display: flex;
@@ -49,7 +50,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const StyledInput = styled.input`
+export const Input = styled.input`
   font-size: clamp(1.6rem, 2vw + 1rem, 1.8rem);
   outline: none;
   width: 100%;
@@ -76,7 +77,7 @@ export const StyledInput = styled.input`
   }
 `;
 
-export const StyledInputContainer = styled.div`
+export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;

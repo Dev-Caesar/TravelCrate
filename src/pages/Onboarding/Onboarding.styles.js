@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { StyledButton } from '../../components/Buttons/Button.styles';
+
 export const Container = styled.section`
   margin: 0 auto;
   width: 90vw;

@@ -1,12 +1,18 @@
-import { BarsGroup, CurrentScreenBars } from './Onboarding.styles';
+import * as Styled from './Onboarding.styles';
 
 const CurrentScreenIndicator = ({ currentScreen }) => {
   return (
-    <BarsGroup>
-      <CurrentScreenBars currentScreen={currentScreen + 1 === 1 ? 1 : ''}></CurrentScreenBars>
-      <CurrentScreenBars currentScreen={currentScreen === 1 ? 1 : ''}></CurrentScreenBars>
-      <CurrentScreenBars currentScreen={currentScreen === 2 ? 2 : ''}></CurrentScreenBars>
-    </BarsGroup>
+    <Styled.BarsGroup>
+      <Styled.CurrentScreenBars
+        currentScreen={currentScreen + 1 === 1 ? 1 : ''}
+      ></Styled.CurrentScreenBars>
+      <Styled.CurrentScreenBars
+        currentScreen={currentScreen === 1 ? 1 : ''}
+      ></Styled.CurrentScreenBars>
+      <Styled.CurrentScreenBars
+        currentScreen={currentScreen === 2 ? 2 : ''}
+      ></Styled.CurrentScreenBars>
+    </Styled.BarsGroup>
   );
 };
 
