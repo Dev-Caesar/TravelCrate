@@ -8,14 +8,9 @@ export const SideBar = styled.nav`
   top: 80px;
   left: 0;
   z-index: 4;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
   text-align: center;
   width: 100%;
   background-color: var(--dark-blue-1);
-  /* display: flex; */
   display: ${(props) => (props.$mobile ? 'block' : ' none')};
   padding: 4rem 4rem;
 
