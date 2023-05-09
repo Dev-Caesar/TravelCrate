@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const NavBar = styled.div`
-  position: ${(props) => (props.mobile ? 'fixed' : 'relative')};
+  /* position: ${(props) => (props.mobile ? 'fixed' : 'sticky')}; */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 5;
   display: flex;
   justify-content: space-between;

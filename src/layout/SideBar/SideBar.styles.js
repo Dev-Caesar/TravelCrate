@@ -76,7 +76,27 @@ export const SideBar = styled.nav`
     visibility: visible;
     padding: 3rem 1rem;
     height: 100vh;
+    display: block;
+    ::-webkit-scrollbar {
+      width: 10px; /* width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #2c313a; /* color of the track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #444850; /* color of the scroll thumb */
+      border-radius: 5px; /* roundness of the scroll thumb */
+    }
+
+    /* Firefox */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #444850 #f1f1f1;
+    }
     overflow: auto;
+
     .user-profile-logout__container {
       max-width: 26rem;
     }
@@ -108,8 +128,12 @@ export const NavLink = styled.p`
   max-width: 40rem;
   border-radius: 1rem;
   transition: all 0.1s ease-in;
+  cursor: pointer;
   &:hover {
     background-color: var(--blue-hover);
+  }
+  &:active {
+    background-color: var(--blue-1);
   }
 `;
 
@@ -120,13 +144,13 @@ export const NewPostButton = styled(StyledButton)`
 `;
 
 export const UserContainer = styled.div`
-  padding-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
   width: 100%;
   max-width: 29rem;
+  cursor: pointer;
 
   img {
     max-width: 6rem;
