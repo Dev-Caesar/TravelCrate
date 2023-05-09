@@ -1,12 +1,5 @@
 import CurrentScreenIndicator from './CurrentScreenIndicator';
-import {
-  Container,
-  HeaderImg,
-  WhiteBackground,
-  ButtonContainer,
-  SkipButton,
-  OnboardingBtn,
-} from './Onboarding.styles';
+import * as Styled from './Onboarding.styles';
 
 import onboardingImg1 from '../../assets/onboarding-image-1.svg';
 import onboardingImg2 from '../../assets/onboarding-image-2.svg';
@@ -39,24 +32,24 @@ function Onboarding() {
   let content = screenDetails[curScreen];
 
   return (
-    <Container>
-      <HeaderImg src={content.imgSrc} key={content.id} />
-      <WhiteBackground>
+    <Styled.Container>
+      <Styled.HeaderImg src={content.imgSrc} key={content.id} />
+      <Styled.WhiteBackground>
         <div>
           <h1>{content.titleText}</h1>
           <p>{content.bodyText}</p>
         </div>
         <CurrentScreenIndicator currentScreen={curScreen} />
         {curScreen <= 1 ? (
-          <ButtonContainer>
-            <SkipButton>Skip</SkipButton>
-            <OnboardingBtn>Next</OnboardingBtn>
-          </ButtonContainer>
+          <Styled.ButtonContainer>
+            <Styled.SkipButton>Skip</Styled.SkipButton>
+            <Styled.OnboardingBtn>Next</Styled.OnboardingBtn>
+          </Styled.ButtonContainer>
         ) : (
-          <OnboardingBtn>Get Started</OnboardingBtn>
+          <Styled.OnboardingBtn>Get Started</Styled.OnboardingBtn>
         )}
-      </WhiteBackground>
-    </Container>
+      </Styled.WhiteBackground>
+    </Styled.Container>
   );
 }
 

@@ -1,40 +1,34 @@
 import LogoIcon from '../../assets/Logo-icon.svg';
-import {
-  StyledInput,
-  Logo,
-  StyledContainer,
-  StyledInputContainer,
-  SignupButton,
-} from './Signup.styles';
+import * as Styled from './Signup.styles';
 
 function SignUp() {
   return (
-    <StyledContainer>
-      <Logo src={LogoIcon} alt='Travel Craft Logo Icon' />
+    <Styled.Container>
+      <Styled.Logo src={LogoIcon} alt='Travel Craft Logo Icon' />
       <h1>Create an Account</h1>
       <p>Sign up now and gain access to Premium content</p>
       <form>
-        <StyledInputContainer>
+        <Styled.InputContainer>
           <label htmlFor='username'>Username </label>
-          <StyledInput type='text' name='username' placeholder='Enter your username' />
+          <Styled.Input type='text' name='username' placeholder='Enter your username' />
           <span>This is an error message</span>
-        </StyledInputContainer>
-        <StyledInputContainer>
+        </Styled.InputContainer>
+        <Styled.InputContainer>
           <label htmlFor='email'>Email</label>
-          <StyledInput type='email' name='email' placeholder='Enter your email ' />
+          <Styled.Input type='email' name='email' placeholder='Enter your email ' />
           <span>This is an error message</span>
-        </StyledInputContainer>
-        <StyledInputContainer className='last'>
+        </Styled.InputContainer>
+        <Styled.InputContainer className='last'>
           <label htmlFor='password'>Password </label>
-          <StyledInput type='password' name='pswd' placeholder='Enter your password' />
+          <Styled.Input type='password' name='pswd' placeholder='Enter your password' />
           <span>This is an error message</span>
-        </StyledInputContainer>
-        <SignupButton type='button'>Create an Account</SignupButton>
+        </Styled.InputContainer>
+        <Styled.SignupButton type='button'>Create an Account</Styled.SignupButton>
       </form>
       <p>
         Already have an account <a>Login</a>
       </p>
-    </StyledContainer>
+    </Styled.Container>
   );
 }
 
