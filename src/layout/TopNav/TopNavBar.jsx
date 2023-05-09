@@ -8,7 +8,7 @@ const TopNavBar = () => {
   let toggleNavBar = true;
   return (
     <header>
-      <Styled.NavBar className='navbar' mobile={false}>
+      <Styled.NavBar className='navbar' mobile={true}>
         <Styled.MenuButton>
           {toggleNavBar ? (
             <Menu style={{ fontSize: '32px', color: '#5f9dfa' }} />

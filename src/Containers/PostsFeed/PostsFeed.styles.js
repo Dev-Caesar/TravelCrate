@@ -7,7 +7,9 @@ export const PostFeedContainer = styled.main`
   margin: 0 auto;
   padding: 2rem;
   overflow: auto;
-
+  @media (min-width: 62.5em) {
+    height: 100%;
+  }
   h1 {
     color: var(--body-4);
     font-size: clamp(2.8rem, 2vw + 1rem, 3.2rem);

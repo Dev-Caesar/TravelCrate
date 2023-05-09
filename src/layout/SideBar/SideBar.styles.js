@@ -8,24 +8,28 @@ export const SideBar = styled.nav`
   top: 80px;
   left: 0;
   z-index: 4;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
   text-align: center;
   width: 100%;
   background-color: var(--dark-blue-1);
-  display: flex;
-  visibility: ${(props) => (props.$mobile ? 'visible' : ' hidden')};
+  /* display: flex; */
+  display: ${(props) => (props.$mobile ? 'block' : ' none')};
   padding: 4rem 4rem;
+
   p,
   span {
     font-size: clamp(1.6rem, 2vw + 1rem, 1.8rem);
     color: var(--body-4);
   }
-
+  > * {
+    margin: 0 auto;
+  }
   .Logo {
     display: none;
+    margin-bottom: clamp(4rem, 4vh + 3rem, 9rem);
     @media (min-width: 62.5em) {
       display: block;
       width: 70%;
@@ -37,7 +41,7 @@ export const SideBar = styled.nav`
     align-items: center;
     width: 100%;
     max-width: 33rem;
-    padding-bottom: 2rem;
+    padding: clamp(2rem, 4vh + 3rem, 4rem) 0;
 
     @media (min-width: 62.5em) {
       max-width: 26rem;
@@ -51,6 +55,7 @@ export const SideBar = styled.nav`
     gap: 1rem;
     width: 100%;
     max-width: 40rem;
+    padding: clamp(2rem, 4vh + 3rem, 4rem) 0;
     @media (min-width: 62.5em) {
       max-width: 26rem;
     }
@@ -67,14 +72,16 @@ export const SideBar = styled.nav`
   }
 
   @media (min-width: 62.5em) {
-    position: relative;
+    position: sticky;
     top: 0;
     background-color: var(--dark-blue-2);
     width: 30vw;
     max-width: 29rem;
     border-right: 2px solid var(--blue-1);
     visibility: visible;
-    padding: 1rem;
+    padding: 3rem 1rem;
+    height: 100vh;
+    overflow: auto;
     .user-profile-logout__container {
       max-width: 26rem;
     }
