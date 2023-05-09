@@ -97,3 +97,57 @@ export const posts = [
     location: 'Tokyo,Japan',
   },
 ];
+
+export const post = {
+  username: 'Joseph Gonzalez',
+  caption:
+    "Peru: A Journey Through Time and Culture. From exploring the ancient ruins of Machu Picchu to indulging in the vibrant flavors of Peruvian cuisine, my time in Peru was nothing short of magical. Every moment was filled with adventure, breathtaking landscapes, and unforgettable memories. Can't wait to return someday.",
+  url: 'https://images.unsplash.com/photo-1683583857416-718b603109c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80',
+  profilePhoto:
+    'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  likes: '23k',
+  comments: '4k',
+  location: 'Tokyo,Japan',
+};
+
+export const comments = [
+  {
+    comment:
+      'Looks like an amazing trip! The photos are stunning, especially the ones from Machu Picchu.',
+    profilePhoto:
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+    username: 'JourneyingSoul',
+    key: '12',
+  },
+  {
+    comment:
+      'Wow, you really immersed yourself in the culture. The weaving workshop sounds fascinating.',
+    profilePhoto:
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+    username: 'RoamingGypsy',
+    key: '13',
+  },
+  {
+    comment:
+      "I've always wanted to visit Peru, and your post has convinced me even more. The food looks incredible!",
+    profilePhoto:
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+    username: 'WanderlustExplorer',
+    key: '14',
+  },
+  {
+    comment: 'What an incredible adventure! The landscapes are so diverse and beautiful.',
+    profilePhoto:
+      'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+    username: 'TravelingNomad',
+    key: '16',
+  },
+  {
+    comment:
+      "Peru has been on my travel bucket list for years, and your post has just confirmed why. I'm in awe of the architecture and history.",
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'AdventureAwaits',
+    key: '17',
+  },
+];

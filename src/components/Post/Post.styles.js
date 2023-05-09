@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Favorite, Comment, PinDrop } from '@mui/icons-material/';
 
 export const Article = styled.article`
   background-color: var(--dark-blue-2);
@@ -64,30 +63,4 @@ export const Figure = styled.figure`
     object-fit: cover;
     object-position: top center;
   }
-`;
-export const PostInteractionContainer = styled.div`
-  display: flex;
-  gap: 1.8rem;
-  div {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  span {
-    font-weight: 300;
-    font-size: 1.4rem;
-  }
-`;
-// MUI Icons
-export const FavoriteIcon = styled(Favorite)`
-  color: var(--like);
-  font-size: 24px !important;
-`;
-export const CommentIcon = styled(Comment)`
-  color: #f8f8f9;
-  font-size: 24px !important;
-`;
-export const LocationIcon = styled(PinDrop)`
-  color: #f8f8f9;
-  font-size: 24px !important;
 `;

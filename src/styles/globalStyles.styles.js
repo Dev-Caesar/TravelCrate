@@ -7,7 +7,7 @@ export default styled.createGlobalStyle`
   :root {
     --blue-1: #5f9dfa;
     --blue-2: #8fbafb;
-    --blue-hover: #9fc4fc;
+    --blue-hover: #456aa2;
     --dark-blue-1: #151a24;
     --dark-blue-2: #2c313a;
     --gray-1: #c8c9cf;
@@ -45,6 +45,22 @@ export default styled.createGlobalStyle`
   }
   body {
     background-color: var(--dark-blue-1);
+    ::-webkit-scrollbar {
+      width: 10px; /* width of the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #2c313a; /* color of the track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #444850; /* color of the scroll thumb */
+      border-radius: 20px; /* roundness of the scroll thumb */
+    }
+    ::-moz-scrollbar-thumb {
+      background-color: #444850; /* color of the scroll thumb */
+      border-radius: 20px; /* roundness of the scroll thumb */
+    }
   }
   h1,
   h2,

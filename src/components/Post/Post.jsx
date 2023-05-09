@@ -1,3 +1,4 @@
+import PostInteractionIcons from '../PostInteractionIcons/PostInteractionIcons';
 import * as Styled from './Post.styles';
 
 const Post = ({ post }) => {
@@ -25,20 +26,7 @@ const Post = ({ post }) => {
           <img src={post.photoUrl} alt='' className='PostPhoto' />
         </div>
       </Styled.Figure>
-      <Styled.PostInteractionContainer>
-        <div className='LikeContainer'>
-          <Styled.FavoriteIcon />
-          <span>{post.likes}</span>
-        </div>
-        <div className='CommentContainer'>
-          <Styled.CommentIcon />
-          <span>{post.comments}</span>
-        </div>
-        <div className='LocationContainer'>
-          <Styled.LocationIcon />
-          <span>{post.location}</span>
-        </div>
-      </Styled.PostInteractionContainer>
+      <PostInteractionIcons />
     </Styled.Article>
   );
 };
