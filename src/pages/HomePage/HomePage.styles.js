@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const HomeFeedLayout = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  div {
+
+  > div {
     align-self: stretch;
   }
   .PageHeading {

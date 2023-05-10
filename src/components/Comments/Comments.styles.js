@@ -43,26 +43,6 @@ export const CommentSection = styled.section`
     padding-bottom: 3rem;
   }
 `;
-export const TextArea = styled.textarea`
-  font-family: var(--body-font);
-  width: 100%;
-  resize: none;
-  outline: none;
-  border: 3.7px solid var(--blue-1);
-  height: 13rem;
-  border-radius: 12px;
-  background-color: var(--dark-blue-1);
-  font-size: 1.8rem;
-  color: var(--body-4);
-  caret-color: var(--body-4);
-  padding: 1rem;
-  ::placeholder {
-    font-family: var(--body-font);
-    font-weight: 400;
-    font-size: clamp(1.4rem, 2vw + 1rem, 1.6rem);
-    color: var(--body-3);
-  }
-`;
 
 export const PostButton = styled(StyledButton)`
   width: 100%;

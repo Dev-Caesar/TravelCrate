@@ -1,7 +1,7 @@
 import { post, comments } from '../../utils/data';
 import Comment from '../Comment/Comment';
 import * as Styled from '../Comments/Comments.styles';
-
+import { TextArea } from '../Textarea/Textarea.styles';
 const Comments = () => {
   return (
     <Styled.CommentSection>
@@ -16,7 +16,7 @@ const Comments = () => {
       </div>
       <h3>Comments</h3>
       <div className='CommentBox'>
-        <Styled.TextArea name='comment' placeholder='write a comment...'></Styled.TextArea>
+        <TextArea name='comment' placeholder='write a comment...'></TextArea>
         <Styled.PostButton>Post</Styled.PostButton>
       </div>
       <div className='UserComments'>
