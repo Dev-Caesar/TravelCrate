@@ -63,7 +63,7 @@ export const SideBar = styled.nav`
     flex-direction: column;
     align-items: flex-start;
     max-width: 30rem;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   @media (min-width: 62.5em) {
@@ -151,17 +151,30 @@ export const UserContainer = styled.div`
   width: 100%;
   max-width: 29rem;
   cursor: pointer;
-
   img {
     max-width: 6rem;
     border-radius: 50%;
   }
+
+  &:hover {
+    p {
+      color: var(--blue-1);
+    }
+  }
+
   @media (min-width: 59.5em) {
     width: 70%;
   }
 `;
+
 export const LogOutContainer = styled(UserContainer)`
   padding-bottom: 2rem;
+
+  &:hover {
+    p {
+      color: var(--danger);
+    }
+  }
 `;
 
 // MUI Icons
