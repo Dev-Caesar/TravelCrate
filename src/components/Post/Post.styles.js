@@ -25,23 +25,13 @@ export const Article = styled.article`
     font-size: clamp(1.4rem, 2vw + 1rem, 1.5rem);
     font-weight: 300;
   }
-  .ImgContainer {
-    display: flex;
-    width: 6rem;
-    height: 6rem;
-  }
+
   .PostInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.4rem;
   }
-`;
-
-export const ProfilePhoto = styled.img`
-  width: 100%;
-  border-radius: 50%;
-  object-fit: cover;
 `;
 
 export const Figure = styled.figure`

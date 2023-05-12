@@ -1,8 +1,8 @@
-import LogoIcon from '../assets/Logo-icon.svg';
-import ForgotPasswordImg from '../assets/forgot-password.svg';
+import LogoIcon from '../../assets/Logo-icon.svg';
+import ForgotPasswordImg from '../../assets/forgot-password.svg';
 import * as Styled from './SignUp/Signup.styles';
-
-import { HeaderImg } from './Onboarding/Onboarding.styles';
+import { Input } from '../../components/InputElements/InputElements.styles';
+import { HeaderImg } from '../Onboarding/Onboarding.styles';
 
 function ForgotPassword() {
   return (
@@ -14,7 +14,7 @@ function ForgotPassword() {
       <form>
         <Styled.InputContainer>
           <label htmlFor='email'>Email</label>
-          <Styled.Input type='email' name='email' placeholder='Enter your email ' />
+          <Input type='email' name='email' placeholder='Enter your email ' />
           <span>This is an error message</span>
         </Styled.InputContainer>
         <Styled.SignupButton type='button'>Reset password</Styled.SignupButton>

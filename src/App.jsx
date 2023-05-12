@@ -1,10 +1,7 @@
 import { Fragment } from 'react';
 
-import HomePage from './pages/HomePage/HomePage';
-// import Login from './pages/Login/Login';
-// import Signup from './pages/SignUp/Signup';
-// import Onboarding from './pages/Onboarding/Onboarding';
-// import ForgotPassword from './pages/ForgotPassword';
+import Root from './routes/Root/Root';
+
 function App() {
   return (
     <Fragment>
@@ -12,7 +9,7 @@ function App() {
       <Signup />
       <Login />
       <ForgotPassword /> */}
-      <HomePage />
+      <Root />
     </Fragment>
   );
 }

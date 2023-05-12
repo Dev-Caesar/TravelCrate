@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { StyledButton } from '../../components/Buttons/Button.styles';
+import { StyledButton } from '../../../components/Buttons/Button.styles';
 
 export const Container = styled.div`
   padding: 4rem 0;
@@ -47,33 +47,6 @@ export const Logo = styled.img`
   @media (min-width: 768px) {
     max-width: 7rem;
     padding-bottom: 6rem;
-  }
-`;
-
-export const Input = styled.input`
-  font-size: clamp(1.6rem, 2vw + 1rem, 1.8rem);
-  outline: none;
-  width: 100%;
-  height: 5.5rem;
-  border: 2px solid var(--blue-1);
-  background-color: var(--dark-blue-2);
-  border-radius: 0.5rem;
-  color: var(--body-3);
-  padding: 0 1.4rem;
-  transition: all 0.2s ease-in;
-  ::placeholder {
-    font-weight: 400;
-    font-size: clamp(1.4rem, 2vw + 1rem, 1.6rem);
-    color: var(--body-3);
-  }
-  &:hover {
-    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.5);
-  }
-  &:focus {
-    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.7);
-  }
-  &:active {
-    box-shadow: none;
   }
 `;
 

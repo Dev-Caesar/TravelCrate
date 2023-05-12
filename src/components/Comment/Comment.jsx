@@ -1,12 +1,10 @@
-import { ProfilePhotoContainer } from '../Comments/Comments.styles';
+import UserAvatar from '../UserAvatar/UserAvatar';
 import * as Styled from './Comment.styles';
 
 const Comment = ({ comment }) => {
   return (
     <Styled.UserComment>
-      <ProfilePhotoContainer>
-        <img src={comment.profilePhoto} alt='' />
-      </ProfilePhotoContainer>
+      <UserAvatar src={comment.profilePhoto} />
       <Styled.UserInfo>
         <p className='User'>
           {comment.username + ' '} <span className='Comment'>{comment.comment}</span>

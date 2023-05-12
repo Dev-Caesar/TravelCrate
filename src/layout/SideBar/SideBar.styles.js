@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Search, Home, Map, Explore, Logout } from '@mui/icons-material/';
-import { Input } from '../../pages/SignUp/Signup.styles';
+import { Input } from '../../components/InputElements/InputElements.styles';
+
 import { StyledButton } from '../../components/Buttons/Button.styles';
 
 export const SideBar = styled.nav`

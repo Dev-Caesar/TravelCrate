@@ -1,10 +1,10 @@
 import PageHeading from '../../components/PageHeading/PageHeading';
-import * as Styled from './UploadPost.styles';
+import * as Styled from './UploadPostPage.styles';
 import { TextArea } from '../../components/Textarea/Textarea.styles';
-import { Input } from '../../pages/SignUp/Signup.styles';
-const UploadPost = () => {
+
+const UploadPostPage = () => {
   return (
-    <Styled.Container>
+    <Styled.Container $mobile={true}>
       <PageHeading pageName='Upload Post' />
       <Styled.SelectPostContainer htmlFor='selectPost' className='SelectPostLabel'>
         <Styled.UploadFileRoundedIcon />
@@ -28,7 +28,7 @@ const UploadPost = () => {
           <label htmlFor='location' className='LocationText'>
             Location
           </label>
-          <Input type='text' name='location' placeholder='Place of Visit, Country' />
+          <Styled.InputElement type='text' name='location' placeholder='Place of Visit, Country' />
           <span className='ErrorMessage'>This is an error element</span>
         </div>
         <Styled.UploadCancelBtns>
@@ -40,4 +40,4 @@ const UploadPost = () => {
   );
 };
 
-export default UploadPost;
+export default UploadPostPage;

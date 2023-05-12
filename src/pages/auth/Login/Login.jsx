@@ -1,5 +1,7 @@
-import LogoIcon from '../../assets/Logo-icon.svg';
-import * as Styled from '../SignUp/Signup.styles';
+import LogoIcon from '../../../assets/Logo-icon.svg';
+
+import * as Styled from '../../SignUp/Signup.styles';
+import { Input } from '../../../components/InputElements/InputElements.styles';
 
 function Login() {
   return (
@@ -10,12 +12,12 @@ function Login() {
       <form>
         <Styled.InputContainer>
           <label htmlFor='email'>Email</label>
-          <Styled.Input type='email' name='email' placeholder='Enter your email ' />
+          <Input type='email' name='email' placeholder='Enter your email ' />
           <span>This is an error message</span>
         </Styled.InputContainer>
         <Styled.InputContainer className='last'>
           <label htmlFor='password'>Password </label>
-          <Styled.Input type='password' name='pswd' placeholder='Enter your password' />
+          <Input type='password' name='pswd' placeholder='Enter your password' />
           <span>This is an error message</span>
         </Styled.InputContainer>
         <Styled.SignupButton type='button'>Login</Styled.SignupButton>

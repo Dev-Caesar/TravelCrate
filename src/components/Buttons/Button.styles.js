@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledButton = styled.button`
   background-color: var(--blue-1);
-  font-size: 1.7rem;
+  font-size: clamp(1.6rem, 2vw + 1rem, 1.8rem);
   font-weight: 600;
   color: var(--body-4);
   border-radius: 0.5rem;

@@ -5,10 +5,12 @@ export const PostFeedContainer = styled.main`
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
+  padding: clamp(2rem, 2vw + 1rem, 4rem);
+  padding-top: 12rem;
   overflow: auto;
   @media (min-width: 62.5em) {
     height: 100%;
+    padding: clamp(2rem, 2vw + 1rem, 4rem);
   }
   h1 {
     color: var(--body-4);
@@ -27,27 +29,6 @@ export const Header = styled.header`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-`;
-
-export const PostsLayout = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  max-width: 33rem;
-  margin: 0 auto;
-  @media (min-width: 37.2em) {
-    max-width: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 3rem;
-  }
-  @media (min-width: 62em) {
-    max-width: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 3rem;
-  }
 `;
 
 export const HeadingTwo = styled.h2`
