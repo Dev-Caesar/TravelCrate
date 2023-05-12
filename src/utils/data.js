@@ -1,4 +1,4 @@
-export const posts = [
+export const postsData = [
   {
     profilePhoto:
       'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
@@ -149,5 +149,63 @@ export const comments = [
       'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
     username: 'AdventureAwaits',
     key: '17',
+  },
+];
+
+export const usersSearchResults = [
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'johndoe',
+    bio: "I'm a software engineer with a passion for coding and solving complex problems.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'janedoe',
+    bio: "I'm a writer and poet who loves to explore the beauty and complexity of the world through words.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'bobsmith',
+    bio: "I'm a photographer who captures the beauty of the world through my lens and shares it with others.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'alicewhite',
+    bio: "I'm a fitness coach who helps people achieve their health and wellness goals through exercise and nutrition.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'maxbrown',
+    bio: "I'm a musician and songwriter who loves to create and perform music that touches people's hearts and souls.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+
+    username: 'sarahgreen',
+    bio: "I'm a graphic designer with a passion for creating beautiful and functional designs that make a difference.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'jackblack',
+    bio: "I'm an actor and comedian who loves to make people laugh and entertain audiences around the world.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'laurajones',
+    bio: "I'm a teacher who loves to inspire and educate students to help them reach their full potential.",
+  },
+  {
+    profilePhoto:
+      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    username: 'davidsmith',
+    bio: "I'm a software developer who loves to create innovative solutions to complex problems and push the boundaries of technology.",
   },
 ];

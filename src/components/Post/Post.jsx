@@ -1,13 +1,12 @@
 import PostInteractionIcons from '../PostInteractionIcons/PostInteractionIcons';
+import UserAvatar from '../UserAvatar/UserAvatar';
 import * as Styled from './Post.styles';
 
 const Post = ({ post }) => {
   return (
     <Styled.Article>
       <header>
-        <div className='ImgContainer'>
-          <Styled.ProfilePhoto src={post.profilePhoto} alt='' />
-        </div>
+        <UserAvatar src={post.profilePhoto} />
         <div className='PostInfo'>
           <h2 className='Username'>{post.username}</h2>
           <time dateTime={post.timeOfPost} className='Time'>

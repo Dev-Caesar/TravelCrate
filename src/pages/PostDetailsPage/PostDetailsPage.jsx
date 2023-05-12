@@ -1,8 +1,9 @@
 import Comments from '../../components/Comments/Comments';
 import PageHeading from '../../components/PageHeading/PageHeading';
 import Photo from '../../components/Photo/Photo';
-import * as Styled from './PostDetails.styles';
-const PostDetails = () => {
+import * as Styled from './PostDetailsPage.styles';
+
+const PostDetailsPage = () => {
   return (
     <main>
       <Styled.PostDetailsContainer $mobile={false}>
@@ -16,4 +17,4 @@ const PostDetails = () => {
   );
 };
 
-export default PostDetails;
+export default PostDetailsPage;

@@ -1,8 +1,9 @@
-import { posts } from '../../utils/data';
+import { postsData } from '../../utils/data';
 import Post from '../../components/Post/Post';
-import * as Styled from './PostsFeed.styles';
+import * as Styled from './PostsFeedPage.styles';
+import { PostsLayout } from '../../components/PostsLayout/PostsLayout.styles';
 
-const PostsFeed = () => {
+const PostsFeedPage = () => {
   return (
     <Styled.PostFeedContainer>
       <Styled.Header>
@@ -11,13 +12,14 @@ const PostsFeed = () => {
         <p>Top travel inspiration for today</p>
       </Styled.Header>
 
-      <Styled.PostsLayout>
-        {posts.map((post) => (
+      <PostsLayout>
+        {postsData.map((post) => (
           <Post key={post.timeOfPost} post={post} />
         ))}
-      </Styled.PostsLayout>
+      </PostsLayout>
+      {/* //TODO: load more post button */}
     </Styled.PostFeedContainer>
   );
 };
 
-export default PostsFeed;
+export default PostsFeedPage;

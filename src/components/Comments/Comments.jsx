@@ -2,14 +2,13 @@ import { post, comments } from '../../utils/data';
 import Comment from '../Comment/Comment';
 import * as Styled from '../Comments/Comments.styles';
 import { TextArea } from '../Textarea/Textarea.styles';
+import UserAvatar from '../UserAvatar/UserAvatar';
 const Comments = () => {
   return (
     <Styled.CommentSection>
       <div className='PostCaption'>
         <div className='UserInfo'>
-          <Styled.ProfilePhotoContainer>
-            <img src={post.profilePhoto} alt='' />
-          </Styled.ProfilePhotoContainer>
+          <UserAvatar src={post.profilePhoto} />
           <p className='Username'>{post.username}</p>
         </div>
         <p className='Caption'>{post.caption}</p>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { UploadFileRounded } from '@mui/icons-material/';
 import { StyledButton } from '../../components/Buttons/Button.styles';
+import { Input } from '../../components/InputElements/InputElements.styles';
 
 export const Container = styled.main`
   padding-top: 12rem;
@@ -8,8 +9,9 @@ export const Container = styled.main`
   flex-direction: column;
   align-items: center;
   width: 90vw;
-  max-width: 100rem;
   margin: 0 auto;
+  height: ${(props) => (props.$mobile ? '100vh' : '100%')};
+  overflow: ${(props) => (props.$mobile ? 'auto' : 'unset')};
   @media (min-width: 62.5em) {
     padding-top: clamp(2rem, 2vw + 1rem, 4rem);
     width: 70vw;
@@ -37,6 +39,7 @@ export const SelectPostContainer = styled.label`
   width: 100%;
   max-width: 65rem;
   background-color: var(--dark-blue-2);
+  margin-top: 3rem;
   padding: 2rem;
   align-items: center;
   border-radius: 2rem;
@@ -91,7 +94,7 @@ export const AddPostDetails = styled.div`
     color: var(--danger);
   }
 `;
-
+export const InputElement = styled(Input)``;
 export const UploadCancelBtns = styled.div`
   display: flex;
   justify-content: space-around;
