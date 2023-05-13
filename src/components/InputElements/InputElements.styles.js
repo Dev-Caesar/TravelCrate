@@ -14,7 +14,7 @@ export const Input = styled.input`
     font-family: var(--body-font);
     font-weight: 400;
     font-size: clamp(1.4rem, 2vw + 1rem, 1.6rem);
-    color: var(--body-3);
+    color: var(--body-2);
   }
   &:hover {
     box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.5);

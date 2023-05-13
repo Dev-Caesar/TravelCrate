@@ -10,7 +10,7 @@ export const Pageheading = styled.header`
     outline: none;
   }
   .Greeting {
-    font-family: var(--heading-font);
+    font-family: var(--Heading-font);
     font-size: clamp(2.8rem, 2vw + 1rem, 3.2rem);
     color: var(--body-4);
   }

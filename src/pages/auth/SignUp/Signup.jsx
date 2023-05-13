@@ -1,4 +1,4 @@
-import LogoIcon from '../../assets/Logo-icon.svg';
+import LogoIcon from '../../../assets/Logo-icon.svg';
 import * as Styled from './Signup.styles';
 import { Input } from '../../../components/InputElements/InputElements.styles';
 function SignUp() {
@@ -20,6 +20,8 @@ function SignUp() {
         </Styled.InputContainer>
         <Styled.InputContainer className='last'>
           <label htmlFor='password'>Password </label>
+          <Styled.VisibilityOffRoundedIcon />
+          <Styled.VisibilityRoundedIcon />
           <Input type='password' name='pswd' placeholder='Enter your password' />
           <span>This is an error message</span>
         </Styled.InputContainer>

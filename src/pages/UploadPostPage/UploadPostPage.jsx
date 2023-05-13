@@ -32,8 +32,8 @@ const UploadPostPage = () => {
           <span className='ErrorMessage'>This is an error element</span>
         </div>
         <Styled.UploadCancelBtns>
-          <Styled.CancelBtn>Cancel</Styled.CancelBtn>
-          <Styled.UploadBtn>Upload</Styled.UploadBtn>
+          <Styled.Button $btnType='cancel'>Cancel</Styled.Button>
+          <Styled.Button $btnType='finish'>Upload</Styled.Button>
         </Styled.UploadCancelBtns>
       </Styled.AddPostDetails>
     </Styled.Container>

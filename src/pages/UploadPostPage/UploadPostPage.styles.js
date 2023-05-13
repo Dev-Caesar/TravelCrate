@@ -101,20 +101,18 @@ export const UploadCancelBtns = styled.div`
   padding-top: 4rem;
   padding-bottom: 3rem;
 `;
-export const CancelBtn = styled(StyledButton)`
+
+export const Button = styled(StyledButton)`
   width: 40%;
   border-radius: 1.4rem;
-  background-color: var(--danger);
-
+  background-color: ${({ $btnType }) =>
+    $btnType === 'cancel' ? 'var(--danger)' : 'var(--blue-2)'};
   &:hover {
-    box-shadow: 0px 0px 0px 6px rgba(235, 39, 50, 0.4);
+    box-shadow: ${({ $btnType }) =>
+      $btnType === 'cancel' ? `var(--box-shadow-hover-danger)` : 'var(--box-shadow-hover)'};
   }
   &:active {
-    box-shadow: 0px 0px 0px 6px rgba(235, 39, 50, 0.6);
+    box-shadow: ${({ $btnType }) =>
+      $btnType === 'cancel' ? 'var(--box-shadow-active-danger)' : 'var(--box-shadow-active)'};
   }
-`;
-export const UploadBtn = styled(StyledButton)`
-  width: 40%;
-  border-radius: 1.4rem;
-  background-color: var(--blue-2);
 `;

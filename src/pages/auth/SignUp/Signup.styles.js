@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { StyledButton } from '../../../components/Buttons/Button.styles';
+import { VisibilityOffRounded, VisibilityRounded } from '@mui/icons-material';
 
 export const Container = styled.div`
   padding: 4rem 0;
@@ -55,6 +56,7 @@ export const InputContainer = styled.div`
   flex-direction: column;
   gap: 0.8rem;
   align-items: flex-start;
+  position: relative;
   padding-bottom: 2rem;
   &.last {
     padding-bottom: 5rem;
@@ -63,4 +65,21 @@ export const InputContainer = styled.div`
 
 export const SignupButton = styled(StyledButton)`
   margin-bottom: 1rem;
+`;
+
+export const VisibilityOffRoundedIcon = styled(VisibilityOffRounded)`
+  position: absolute;
+  right: 0;
+  color: var(--body-4);
+  font-size: 32px !important;
+  transform: translate(-3rem, 4rem);
+  cursor: pointer;
+`;
+export const VisibilityRoundedIcon = styled(VisibilityRounded)`
+  color: var(--body-4);
+  font-size: 32px !important;
+  transform: translate(-3rem, 4rem);
+  position: absolute;
+  right: 0;
+  cursor: pointer;
 `;
