@@ -19,7 +19,7 @@ const PlanTripPage = (props) => {
           <span className='ErrorMessage'>Error Message</span>
         </Styled.DestinationFieldContainer>
         <Styled.DateFieldContainer className='DateOfTripField'>
-          <label htmlFor='date'>Date</label>
+          <label htmlFor='date'>Date of Trip</label>
           <Styled.CalenderIcon />
           <Styled.StyledDatePicker
             selected={props.startDate}
@@ -28,7 +28,7 @@ const PlanTripPage = (props) => {
           <span className='ErrorMessage'>Error Message</span>
         </Styled.DateFieldContainer>
         <Styled.DurationField>
-          <label htmlFor='duration'>Duration</label>
+          <label htmlFor='duration'>Duration of Trip</label>
           <Styled.DurationIcon />
           <Styled.DateInputElement
             type='text'

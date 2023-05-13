@@ -282,3 +282,42 @@ export const DestinationsData = [
       'https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aXN0YW5idWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
   },
 ];
+
+export const tripsData = [
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyZWVjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '27th,may 2023 ',
+    durationOfTrip: '4days',
+  },
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1580502304784-8985b7eb7260?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGdyZWVjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '26th,may 2023 ',
+    durationOfTrip: '2weeks',
+  },
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1587974136998-4fcc253b6183?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGdyZWVjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '22th,may 2023 ',
+    durationOfTrip: '3days',
+  },
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1503022651232-aa1b2a1503a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHN5ZG5leXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '19th,may 2023 ',
+    durationOfTrip: '3days',
+  },
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1526958977630-bc61b30a2009?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHN5ZG5leXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '1st,may 2023 ',
+    durationOfTrip: '2days',
+  },
+  {
+    image_url:
+      'https://images.unsplash.com/photo-1513343987712-5da15ea2a9bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHN5ZG5leXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    dateOfTrip: '28th,may 2023 ',
+    durationOfTrip: '3days',
+  },
+];

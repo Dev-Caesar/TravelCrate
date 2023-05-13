@@ -155,6 +155,7 @@ export const UserContainer = styled.div`
   img {
     max-width: 6rem;
     border-radius: 50%;
+    border: 3px solid var(--blue-1);
   }
 
   &:hover {

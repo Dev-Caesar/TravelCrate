@@ -68,7 +68,8 @@ export default styled.createGlobalStyle`
   }
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     font-family: var(--Heading-font);
     margin: 0;
     padding: 0;

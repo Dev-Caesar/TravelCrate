@@ -4,7 +4,7 @@ import { Input } from '../../components/InputElements/InputElements.styles';
 import { StyledButton } from '../../components/Buttons/Button.styles';
 
 export const Container = styled.main`
-  padding: 1rem;
+  padding: 2rem;
   padding-top: 12rem;
   width: 100vw;
   display: flex;
@@ -34,13 +34,13 @@ export const SearchDestinationField = styled(SearchField)`
 export const DestinationsLayout = styled.div`
   align-self: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33rem, 45rem));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 45rem));
   gap: 3rem;
   @media (min-width: 50em) {
     grid-template-columns: repeat(2, minmax(28rem, 1fr));
   }
   @media (min-width: 87em) {
-    grid-template-columns: repeat(3, minmax(28rem, 1fr));
+    grid-template-columns: repeat(3, minmax(35rem, 1fr));
   }
 `;
 
@@ -54,7 +54,7 @@ export const DestinationItem = styled.article`
   .ImgContainer {
     display: flex;
     width: 16rem;
-    height: 16rem;
+    height: 20rem;
   }
   img {
     object-fit: cover;
@@ -62,11 +62,12 @@ export const DestinationItem = styled.article`
   }
   .DestinationInfoContainer {
     width: 53%;
-    height: 22rem;
+    height: 20rem;
     overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
   }
   .DestinationName {
@@ -78,8 +79,7 @@ export const DestinationItem = styled.article`
   .DestinationDetails {
     font-size: 1.6rem;
     color: var(--gray-2);
-    height: 9.6rem;
-    overflow: hidden;
+    overflow: auto;
     ::-webkit-scrollbar {
       width: 5px; /* width of the scrollbar */
     }
@@ -97,7 +97,7 @@ export const DestinationItem = styled.article`
   @media (max-width: 22.5em) {
     .ImgContainer {
       width: 14rem;
-      height: 14rem;
+      height: 20rem;
     }
   }
 `;
