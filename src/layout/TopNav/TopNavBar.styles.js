@@ -43,4 +43,5 @@ export const ProfilePhoto = styled.img`
   width: 25%;
   max-width: 7rem;
   border-radius: 50%;
+  border: 3px solid var(--blue-1);
 `;

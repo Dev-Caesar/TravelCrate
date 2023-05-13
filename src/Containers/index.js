@@ -4,3 +4,4 @@ export { default as UploadPost } from './UploadPostContainer';
 export { default as Search } from './SearchContainer';
 export { default as Destinations } from './DestinationsContainer';
 export { default as PlanTrip } from './PlanTripContainer';
+export { default as Trips } from './TripsContainer';

@@ -3,16 +3,17 @@ import { ArrowBackIos } from '@mui/icons-material/';
 
 export const Pageheading = styled.header`
   display: flex;
-  margin-bottom: 2rem;
+
   .BackBtn {
     background-color: transparent;
     border: none;
     outline: none;
   }
-  .Greeting {
+  .Greetingh1 {
     font-family: var(--Heading-font);
     font-size: clamp(2.8rem, 2vw + 1rem, 3.2rem);
     color: var(--body-4);
+    margin-bottom: 1.5rem;
   }
 `;
 export const ArrowBackIcon = styled(ArrowBackIos)`
