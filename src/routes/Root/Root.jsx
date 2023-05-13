@@ -2,11 +2,11 @@ import TopNavBar from '../../layout/TopNav/TopNavBar';
 import SideBar from '../../layout/SideBar/SideBar';
 import * as Styled from './Root.styles';
 
-// import { PostDetails, UploadPost, Search} from '../../Containers';
+import { PostDetails, UploadPost, Search, Destinations } from '../../Containers';
 
 const Root = () => {
   return (
-    <Styled.HomeFeedLayout>
+    <Styled.Layout>
       <div>
         <TopNavBar />
         <SideBar />
@@ -14,7 +14,8 @@ const Root = () => {
       {/* <PostDetails /> */}
       {/* <UploadPost /> */}
       {/* <Search /> */}
-    </Styled.HomeFeedLayout>
+      <Destinations />
+    </Styled.Layout>
   );
 };
 

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const HomeFeedLayout = styled.div`
+export const Layout = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   > div {
     align-self: stretch;

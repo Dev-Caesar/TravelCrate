@@ -209,3 +209,76 @@ export const usersSearchResults = [
     bio: "I'm a software developer who loves to create innovative solutions to complex problems and push the boundaries of technology.",
   },
 ];
+
+export const DestinationsData = [
+  {
+    name: 'Santorini, Greece',
+    description:
+      'Santorini is a picturesque island in the Aegean Sea known for its stunning views, white-washed buildings, and volcanic beaches.',
+    image_url:
+      'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3JlZWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Tokyo, Japan',
+    description:
+      'Tokyo is a vibrant metropolis that offers a unique blend of modern and traditional culture, with top-notch cuisine, shopping, and nightlife.',
+    image_url:
+      'https://plus.unsplash.com/premium_photo-1675159316424-4567a58d835f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Cape Town, South Africa',
+    description:
+      'Cape Town is a diverse and beautiful city that offers a mix of natural beauty, cultural experiences, and outdoor activities, including hiking, surfing, and wildlife safaris.',
+    image_url:
+      'https://images.unsplash.com/photo-1595708323549-85635381d0d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FwZXRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Paris, France',
+    description:
+      'Paris is known as the City of Love, with its romantic architecture, world-class museums, and iconic landmarks like the Eiffel Tower and Notre-Dame Cathedral.',
+    image_url:
+      'https://images.unsplash.com/photo-1550340499-a6c60fc8287c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGFyaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Bali, Indonesia',
+    description:
+      'Bali is a tropical paradise with stunning beaches, lush forests, and ancient temples, making it a popular destination for relaxation and spiritual exploration.',
+    image_url:
+      'https://plus.unsplash.com/premium_photo-1674539249731-62b047824f06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'New York City, USA',
+    description:
+      'New York City is a bustling metropolis that never sleeps, with iconic landmarks like the Statue of Liberty, Empire State Building, and Times Square.',
+    image_url:
+      'https://images.unsplash.com/flagged/photo-1575597255483-55f2afb6f42c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3eW9ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Sydney, Australia',
+    description:
+      'Sydney is a dynamic city with a rich history, diverse culture, and iconic landmarks like the Sydney Opera House and Harbour Bridge.',
+    image_url:
+      'https://images.unsplash.com/photo-1549180030-48bf079fb38a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8U3lkbmV5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Machu Picchu, Peru',
+    description:
+      'Machu Picchu is an ancient Incan citadel located in the Andes Mountains, known for its stunning vistas and mysterious history.',
+    image_url:
+      'https://images.unsplash.com/photo-1609944433409-81bda5323abc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFjaHUlMjBwaWNjaHV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Dubai, UAE',
+    description:
+      'Dubai is a modern and luxurious city known for its towering skyscrapers, high-end shopping, and luxury hotels.',
+    image_url:
+      'https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+  {
+    name: 'Istanbul, Turkey',
+    description:
+      'Istanbul is a city where east meets west, with a rich history that spans ancient civilizations and modern culture, and features stunning architecture, including the Hagia Sophia and Blue Mosque.',
+    image_url:
+      'https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aXN0YW5idWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+  },
+];

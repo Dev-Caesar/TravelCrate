@@ -29,7 +29,7 @@ export const Container = styled.div`
     width: 100%;
   }
   label {
-    font-weight: 700;
+    font-weight: 400;
     font-size: clamp(1.6rem, 2vw + 1rem, 1.8rem);
     color: var(--body-3);
   }
