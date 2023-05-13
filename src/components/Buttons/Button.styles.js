@@ -15,9 +15,9 @@ export const StyledButton = styled.button`
   transition: all ease-in-out 0.2s;
 
   &:hover {
-    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.5);
+    box-shadow: var(--box-shadow-hover);
   }
   &:active {
-    box-shadow: 0px 0px 0px 6px rgba(94, 157, 250, 0.6);
+    box-shadow: var(--box-shadow-active);
   }
 `;

@@ -2,7 +2,7 @@ import TopNavBar from '../../layout/TopNav/TopNavBar';
 import SideBar from '../../layout/SideBar/SideBar';
 import * as Styled from './Root.styles';
 
-import { PostDetails, UploadPost, Search, Destinations } from '../../Containers';
+import { PlanTrip } from '../../Containers';
 
 const Root = () => {
   return (
@@ -14,7 +14,8 @@ const Root = () => {
       {/* <PostDetails /> */}
       {/* <UploadPost /> */}
       {/* <Search /> */}
-      <Destinations />
+      {/* <Destinations /> */}
+      <PlanTrip />
     </Styled.Layout>
   );
 };

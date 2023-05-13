@@ -10,7 +10,7 @@ export default styled.createGlobalStyle`
     --blue-hover: #456aa2;
     --dark-blue-1: #151a24;
     --dark-blue-2: #2c313a;
-    --gray-1: #c8c9cf;
+    --gray-1: #9e9fa5;
     --gray-2: #babcc3;
     --body-1: #444850;
     --body-2: #5b5f66;
@@ -19,6 +19,10 @@ export default styled.createGlobalStyle`
     --danger: #ef233c;
     --white: #ffffff;
     --like: #f72585;
+    --box-shadow-hover: 0px 0px 0px 6px rgba(94, 157, 250, 0.5);
+    --box-shadow-active: 0px 0px 0px 6px rgba(94, 157, 250, 0.7);
+    --box-shadow-active-danger: 0px 0px 0px 6px rgba(235, 39, 50, 0.6);
+    --box-shadow-hover-danger: 0px 0px 0px 6px rgba(235, 39, 50, 0.3);
 
     --h1-mobile: 2.6rem;
     --h2-mobile: 2.2rem;
